@@ -30,6 +30,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['15.228.49.83']
 
+SECURE_CROSS_ORIGIN_OPENER_POLICY=None
+
 
 # Application definition
 
