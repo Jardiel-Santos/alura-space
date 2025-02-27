@@ -134,7 +134,7 @@ AWS_S3_REGION_NAME = 'sa-east-1'
 
 AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.{AWS_S3_REGION_NAME}.amazonaws.com'
 
-AWS_DEFAULT_ACL = 'none'
+AWS_DEFAULT_ACL = 'public-read'
 
 AWS_S3_OBJECT_PARAMETERS = {
     'CacheControl': 'max-age=86400'
